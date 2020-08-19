@@ -6,9 +6,9 @@ class GildedRose(object):
         if ("Conjured" in src):
             return 4
         types={
-            "Aged Brie" : 1,
-            "Sulfuras, Hand of Ragnaros" : 2,
-            "Backstage passes to a TAFKAL80ETC concert" : 3}
+            "Aged Brie": 1,
+            "Sulfuras, Hand of Ragnaros": 2,
+            "Backstage passes to a TAFKAL80ETC concert": 3}
         return types.get(src, 5)
 
     def __init__(self, items):
